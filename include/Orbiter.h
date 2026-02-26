@@ -1,3 +1,6 @@
+#ifndef ORBITER_H
+#define ORBITER_H
+
 #include <bn_sprite_items_dot.h>
 
 #include "Center.h"
@@ -31,3 +34,5 @@ class Orbiter {
         bn::fixed_point _velocity;
         Center& _center;
 };
+
+#endif
